@@ -1,16 +1,19 @@
 import React from 'react';
+import * as ReactRedux from 'react-redux'
 import logo from './header/facebook-logo.svg'
-import './index.css';
-import './normalize.css';
 import Header from './header'
-import Main from './Main'
+import store from '../redux/configureStore'
+import Routes from './Routes'
 
+//app principal
 const App = () => {
   return (
+
     <div> 
       <Header img = {logo}/>
-      <Main />
+      <Routes />
     </div>
+  
   );
 }
 

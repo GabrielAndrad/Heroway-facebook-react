@@ -1,6 +1,6 @@
 import React from 'react';
 import Typing from './Typing';
-import './_profile.css'
+
 
 
 interface Iprops {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Post from './Post';
 
-
+//Feed
 function Feed (){
     return(
     <div className = "feed">

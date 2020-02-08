@@ -4,7 +4,6 @@ import PostComents from './PostComents'
 import PostContent from './PostContent'
 import PostHeader from './PostHeader'
 import PostSendCommentForm from './PostSendCommentForm'
-import './_post.css'
 import coments from "../Post/PostComents/person3.jpg"
 import content from "../Post/PostContent/post-image.jpg"
 import headerImg from "../Post/PostHeader/person2.jpg"
@@ -16,7 +15,7 @@ function Post() {
               
             <PostHeader
                 image={headerImg}
-                name="Gabriel Andrade"
+                name="Gabriel Nunes"
                 date="12-12-12"
             />
              <PostContent
